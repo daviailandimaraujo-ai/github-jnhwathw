@@ -1,79 +1,79 @@
-# ⚽ FutGestão - Sistema de Gerenciamento de Peladas
+# FutGestao - Sistema de Gerenciamento de Peladas
 
-Sistema completo para organização e gestão de peladas de futebol, desenvolvido com React + TypeScript no frontend e Node.js + Express no backend, utilizando MongoDB como banco de dados.
+Sistema completo para organizacao e gestao de peladas de futebol, desenvolvido com React + TypeScript no frontend e Node.js + Express no backend, utilizando MongoDB como banco de dados.
 
-## 🌐 Deploy no Vercel
+## Deploy no Vercel
 
-**🌐 Acesse a aplicação:** [https://sistema-de-gestao-de-futebol-amador.vercel.app](https://sistema-de-gestao-de-futebol-amador.vercel.app)
+Acesse a aplicacao: [https://sistema-de-gestao-de-futebol-amador.vercel.app](https://sistema-de-gestao-de-futebol-amador.vercel.app)
 
-## 👥 Equipe de Desenvolvimento
+## Equipe de Desenvolvimento
 
 ### Frontend
-- **Fabíula de Araujo Brandão** - Desenvolvedora Frontend
-  - Responsável por: Interface React/TypeScript, experiência do usuário, design responsivo
+- **Fabula de Araujo Brandao** - Desenvolvedora Frontend
+  - Responsavel por: Interface React/TypeScript, experiencia do usuario, design responsivo
 
 ### Backend
 - **Laura Carolina** - Desenvolvedora Backend Lead
-  - Responsável por: Arquitetura Node.js, APIs REST, autenticação JWT
+  - Responsavel por: Arquitetura Node.js, APIs REST, autenticacao JWT
 
-- **Vinícius Abreu Vasconcelos dos Santos** - Desenvolvedor Backend
-  - Responsável por: Modelos de dados, lógica de negócios, integração MongoDB
+- **Vinicius Abreu Vasconcelos dos Santos** - Desenvolvedor Backend
+  - Responsavel por: Modelos de dados, logica de negocios, integracao MongoDB
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
-O FutGestão é uma solução moderna e completa para organizadores de peladas que precisam:
-- Cadastrar e gerenciar jogadores com níveis de habilidade
+O FutGestao e uma solucao moderna e completa para organizadores de peladas que precisam:
+- Cadastrar e gerenciar jogadores com niveis de habilidade
 - Agendar e organizar partidas
-- Controlar listas de presença em tempo real
-- Confirmar participação e pagamentos
-- Visualizar estatísticas e histórico
+- Controlar listas de presenca em tempo real
+- Confirmar participacao e pagamentos
+- Visualizar estatisticas e historico
 - Gerenciar times e campeonatos
 
-### 🎨 Características Principais
+### Caracteristicas Principais
 
-✅ **Frontend React** - React 19 + TypeScript + Tailwind CSS  
-✅ **Backend Node.js** - Express + MongoDB com autenticação JWT  
-✅ **Design Responsivo** - Interface adaptável para desktop e mobile  
-✅ **Autenticação Segura** - Sistema de login com JWT  
-✅ **Deploy Automático** - Configurado para Vercel  
-✅ **Banco MongoDB** - MongoDB Atlas para produção  
-✅ **Real-time** - Socket.IO para atualizações em tempo real  
+- **Frontend React** - React 19 + TypeScript + Tailwind CSS
+- **Backend Node.js** - Express + MongoDB com autenticacao JWT
+- **Design Responsivo** - Interface adaptavel para desktop e mobile
+- **Autenticacao Segura** - Sistema de login com JWT
+- **Deploy Automatico** - Configurado para Vercel
+- **Banco MongoDB** - MongoDB Atlas para producao
+- **Real-time** - Socket.IO para atualizacoes em tempo real
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
-| Tecnologia | Versão | Função |
+| Tecnologia | Versao | Funcao |
 |-----------|--------|--------|
 | React | 19.0.0 | Framework JavaScript |
-| TypeScript | 5.8.2 | Tipagem estática |
+| TypeScript | 5.8.2 | Tipagem estatica |
 | Tailwind CSS | 4.1.14 | Framework CSS |
 | React Router | 7.14.0 | Roteamento |
 | Axios | 1.14.0 | Cliente HTTP |
-| React Hot Toast | 2.6.0 | Notificações |
-| Lucide React | 0.546.0 | Ícones |
+| React Hot Toast | 2.6.0 | Notificacoes |
+| Lucide React | 0.546.0 | Icones |
 
 ### Backend
-| Tecnologia | Versão | Função |
+| Tecnologia | Versao | Funcao |
 |-----------|--------|--------|
 | Node.js | 18+ | Runtime JavaScript |
 | Express | 4.21.2 | Framework web |
 | MongoDB | 7.2.0 | Banco de dados NoSQL |
-| JWT | 9.0.3 | Autenticação |
-| Socket.IO | 4.8.3 | Comunicação real-time |
+| JWT | 9.0.3 | Autenticacao |
+| Socket.IO | 4.8.3 | Comunicacao real-time |
 | bcryptjs | 3.0.3 | Hash de senhas |
 | CORS | 2.8.6 | Controle de CORS |
 
 ---
 
-## 🚀 Instalação e Execução Local
+## Instalacao e Execucao Local
 
-### Pré-requisitos
+### Pre-requisitos
 
-- Node.js (versão 18 ou superior)
+- Node.js (versao 18 ou superior)
 - npm ou yarn
 - Conta no MongoDB Atlas (ou MongoDB local)
 
@@ -84,13 +84,13 @@ git clone <url-do-repositorio>
 cd futgestao
 ```
 
-### Passo 2: Instale as dependências
+### Passo 2: Instale as dependencias
 
 ```bash
 npm install
 ```
 
-### Passo 3: Configure as variáveis de ambiente
+### Passo 3: Configure as variaveis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto:
 
@@ -100,11 +100,11 @@ MONGODB_URI=mongodb+srv://fabiulabrandao15_db_user:hGT5wxGilTYu6D9l@cluster0.cis
 MONGODB_NAME=futgestao
 
 # Django
-SECRET_KEY=sua-string-aleatoria-longa-aqui
+SECRET_KEY=sk-django-futgestao-2026-a7b3c9d4e5f6g8h1i2j3k4l5m6n7o8p9
 DEBUG=False
 
 # JWT
-JWT_SECRET=sua-string-aleatoria-para-jwt
+JWT_SECRET=jwt-futgestao-2026-x9y8z7w6v5u4t3s2r1q0p9o8n7m6l5k4
 ```
 
 ### Passo 4: Inicie o servidor
@@ -113,7 +113,7 @@ JWT_SECRET=sua-string-aleatoria-para-jwt
 npm run dev
 ```
 
-O sistema estará rodando em `http://localhost:3000`
+O sistema estara rodando em `http://localhost:3000`
 
 ### Passo 5: Acesse o sistema
 
@@ -123,55 +123,58 @@ Abra seu navegador e acesse:
 http://localhost:3000
 ```
 
-**Pronto!** O sistema está funcionando localmente. 🎉
-
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 futgestao/
-│
-├── src/                    # Frontend React
-│   ├── components/         # Componentes reutilizáveis
-│   │   └── Layout.tsx      # Layout principal
-│   ├── pages/              # Páginas da aplicação
-│   │   ├── Login.tsx       # Página de login
-│   │   ├── Register.tsx    # Página de cadastro
-│   │   ├── Dashboard.tsx   # Dashboard principal
-│   │   ├── Players.tsx     # Gestão de jogadores
-│   │   ├── Peladas.tsx     # Gestão de peladas
-│   │   ├── PeladaDetail.tsx # Detalhes da pelada
-│   │   ├── Teams.tsx       # Gestão de times
-│   │   ├── Matches.tsx     # Gestão de partidas
-│   │   └── Profile.tsx     # Perfil do usuário
-│   ├── context/            # Context API (Auth)
-│   │   └── AuthContext.tsx # Contexto de autenticação
-│   ├── services/           # Serviços (API)
-│   │   └── api.ts          # Cliente HTTP
-│   └── lib/                # Utilitários
-│       └── utils.ts        # Funções utilitárias
-│
-├── server.ts               # Servidor Express + MongoDB
-├── vercel.json             # Configuração Vercel
-├── package.json            # Dependências Node.js
-├── .env                    # Variáveis de ambiente
-└── README.md               # Este arquivo
+|
++-- src/                    # Frontend React
+|   +-- components/         # Componentes reutilizaveis
+|   |   +-- Layout.tsx      # Layout principal
+|   +-- pages/              # Paginas da aplicacao
+|   |   +-- Login.tsx       # Pagina de login
+|   |   +-- Register.tsx    # Pagina de cadastro
+|   |   +-- Dashboard.tsx   # Dashboard principal
+|   |   +-- Players.tsx     # Gestao de jogadores
+|   |   +-- Peladas.tsx     # Gestao de peladas
+|   |   +-- PeladaDetail.tsx # Detalhes da pelada
+|   |   +-- PeladaSorteio.tsx # Sorteio de times
+|   |   +-- PeladaLive.tsx  # Jogo ao vivo
+|   |   +-- PlayerProfile.tsx # Perfil do jogador
+|   |   +-- Teams.tsx       # Gestao de times
+|   |   +-- Championships.tsx # Campeonatos
+|   |   +-- ChampionshipDetail.tsx # Detalhes do campeonato
+|   |   +-- Profile.tsx     # Perfil do usuario
+|   +-- context/            # Context API (Auth)
+|   |   +-- AuthContext.tsx # Contexto de autenticacao
+|   +-- services/           # Servicos (API)
+|   |   +-- api.ts          # Cliente HTTP
+|   |   +-- socket.ts       # Socket.IO client
+|   +-- lib/                # Utilitarios
+|       +-- utils.ts        # Funcoes utilitarias
+|
++-- server.ts               # Servidor Express + Vite
++-- vercel.json             # Configuracao Vercel
++-- package.json            # Dependencias Node.js
++-- .env                    # Variaveis de ambiente
++-- README.md               # Este arquivo
 ```
 
 ---
 
-## 🌐 Deploy no Vercel
+## Deploy no Vercel
 
-### Configuração Automática
+### Configuracao Automatica
 
-O projeto está configurado para deploy automático no Vercel:
+O projeto esta configurado para deploy automatico no Vercel:
 
-1. **Frontend**: Build estático com Vite
+1. **Frontend**: Build estatico com Vite
 2. **Backend**: Serverless functions com Express
 3. **Banco**: MongoDB Atlas
 
-### Variáveis de Ambiente no Vercel
+### Variaveis de Ambiente no Vercel
 
 Configure no painel do Vercel:
 
@@ -181,11 +184,11 @@ MONGODB_URI=mongodb+srv://fabiulabrandao15_db_user:hGT5wxGilTYu6D9l@cluster0.cis
 MONGODB_NAME=futgestao
 
 # Django
-SECRET_KEY=sua-string-aleatoria-longa-aqui
+SECRET_KEY=sk-django-futgestao-2026-a7b3c9d4e5f6g8h1i2j3k4l5m6n7o8p9
 DEBUG=False
 
 # JWT
-JWT_SECRET=sua-string-aleatoria-para-jwt
+JWT_SECRET=jwt-futgestao-2026-x9y8z7w6v5u4t3s2r1q0p9o8n7m6l5k4
 ```
 
 ### Deploy Manual
@@ -200,177 +203,205 @@ vercel --prod
 
 ---
 
-## 🎮 Como Usar o Sistema
+## Como Usar o Sistema
 
-### 1️⃣ Primeiro Acesso
+### 1. Primeiro Acesso
 
-1. Acesse a aplicação
+1. Acesse a aplicacao
 2. Clique em **"Cadastre-se"** para criar sua conta
 3. Preencha: Nome, Email, Senha
 4. Clique em **"Cadastrar"**
 
-### 2️⃣ Gerenciar Jogadores
+### 2. Gerenciar Jogadores
 
 1. No menu lateral, clique em **"Meus Jogadores"**
-2. Clique no botão **"Novo Jogador"**
-3. Informe o nome e selecione o nível de estrelas (0.5 a 5.0)
+2. Clique no botao **"Novo Jogador"**
+3. Informe o nome e selecione o nivel de estrelas (0.5 a 5.0)
 4. Clique em **"Salvar Jogador"**
 
-### 3️⃣ Agendar Pelada
+### 3. Agendar Pelada
 
 1. No menu lateral, clique em **"Minhas Peladas"**
-2. Clique no botão **"Nova Pelada"**
+2. Clique no botao **"Nova Pelada"**
 3. Preencha os dados:
-   - Título (ex: "Pelada de Sexta")
-   - Data e horário
+   - Titulo (ex: "Pelada de Sexta")
+   - Data e horario
    - Local
    - Jogadores por time
 4. Clique em **"Criar Pelada"**
 
-### 4️⃣ Gerenciar Lista de Presença
+### 4. Gerenciar Lista de Presenca
 
 1. Na tela de **"Minhas Peladas"**, clique em uma pelada
-2. Você verá os detalhes e a lista de inscritos
-3. Clique em **"Adicionar à Lista"** para incluir participantes
-4. Use os botões para:
-   - ✅ Confirmar presença
-   - ⬆️⬇️ Reordenar lista
-   - ❌ Remover da lista
+2. Voce vera os detalhes e a lista de inscritos
+3. Clique em **"Adicionar a Lista"** para incluir participantes
+4. Use os botoes para:
+   - Confirmar presenca (clique no icone de check)
+   - Confirmar pagamento (clique no icone de dolar)
+   - Reordenar lista (setas para cima/baixo)
+   - Remover da lista (icone de lixeira)
 
-### 5️⃣ Gerenciar Times
+### 5. Sorteio de Times
 
-1. No menu lateral, clique em **"Gestão de Times"**
+1. Na tela de detalhes da pelada, clique em **"Sorteio de Times"**
+2. Escolha entre sorteio aleatorio ou balanceado
+3. Arraste jogadores entre times para ajustar
+4. Clique em **"Confirmar Times"** para iniciar o jogo
+
+### 6. Jogo ao Vivo
+
+1. Apos confirmar os times, voce sera redirecionado para a tela ao vivo
+2. Controle o cronometro e o placar
+3. Registre eventos (gols, assistencias, cartoes)
+4. Gire os times (proximos entram no lugar dos atuais)
+
+### 7. Gerenciar Times
+
+1. No menu lateral, clique em **"Gestao de Times"**
 2. Clique em **"Novo Time"** para criar um time
 3. Preencha nome e cidade
 4. Gerencie seus times cadastrados
 
-### 6️⃣ Dashboard
+### 8. Campeonatos
+
+1. No menu lateral, clique em **"Campeonatos"**
+2. Crie um novo campeonato com formato e datas
+3. Adicione times participantes
+4. Gere a tabela de jogos automaticamente
+
+### 9. Dashboard
 
 O Dashboard mostra:
 - Total de jogadores cadastrados
 - Jogadores ativos
 - Total de peladas
-- Nível médio dos jogadores
+- Nivel medio dos jogadores
 
 ---
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Base URL
 - **Local**: `http://localhost:3000/api/`
-- **Produção**: `https://futgestao.vercel.app/api/`
+- **Producao**: `https://futgestao.vercel.app/api/`
 
-### Autenticação
+### Autenticacao
 
-| Método | Endpoint | Descrição |
+| Metodo | Endpoint | Descricao |
 |--------|----------|-----------|
-| POST | `/register` | Cadastrar novo usuário |
+| POST | `/register` | Cadastrar novo usuario |
 | POST | `/token` | Fazer login |
-| GET | `/me` | Obter dados do usuário |
+| GET | `/me` | Obter dados do usuario |
 
 ### Jogadores
 
-| Método | Endpoint | Descrição |
+| Metodo | Endpoint | Descricao |
 |--------|----------|-----------|
-| GET | `/jogadores/` | Listar jogadores |
-| POST | `/jogadores/` | Criar jogador |
-| PUT | `/jogadores/{id}/` | Atualizar jogador |
-| DELETE | `/jogadores/{id}/` | Desativar jogador |
+| GET | `/jogadores` | Listar jogadores |
+| POST | `/jogadores` | Criar jogador |
+| PUT | `/jogadores/{id}` | Atualizar jogador |
+| DELETE | `/jogadores/{id}` | Desativar jogador |
 
 ### Peladas
 
-| Método | Endpoint | Descrição |
+| Metodo | Endpoint | Descricao |
 |--------|----------|-----------|
-| GET | `/peladas/` | Listar peladas |
-| GET | `/peladas/{id}/` | Obter detalhes |
-| POST | `/peladas/` | Criar pelada |
-| PUT | `/peladas/{id}/` | Atualizar pelada |
+| GET | `/peladas` | Listar peladas |
+| GET | `/peladas/{id}` | Obter detalhes |
+| POST | `/peladas` | Criar pelada |
+| PUT | `/peladas/{id}` | Atualizar pelada |
+| POST | `/peladas/{id}/sortear` | Sortear times |
+| GET | `/peladas/{id}/times` | Listar times da pelada |
+| POST | `/peladas/{id}/encerrar` | Encerrar pelada |
+
+### Gestao de Listas
+
+| Metodo | Endpoint | Descricao |
+|--------|----------|-----------|
+| POST | `/peladas/{id}/jogadores` | Adicionar jogador |
+| DELETE | `/peladas/{id}/jogadores/{jogador_id}` | Remover jogador |
+| PUT | `/peladas/{id}/jogadores/reordenar` | Reordenar lista |
+| PUT | `/peladas/{id}/jogadores/confirmar-presenca` | Confirmar presenca |
+| PUT | `/peladas/{id}/jogadores/confirmar-pagamento` | Confirmar pagamento |
+| PATCH | `/pelada-jogadores/{id}` | Atualizar inscricao (presenca/pagamento) |
+| DELETE | `/pelada-jogadores/{id}` | Remover inscricao |
 
 ### Times
 
-| Método | Endpoint | Descrição |
+| Metodo | Endpoint | Descricao |
 |--------|----------|-----------|
-| GET | `/times/` | Listar times |
-| POST | `/times/` | Criar time |
-| PUT | `/times/{id}/` | Atualizar time |
-| DELETE | `/times/{id}/` | Excluir time |
+| GET | `/times` | Listar times |
+| POST | `/times` | Criar time |
+| PUT | `/times/{id}` | Atualizar time |
+| DELETE | `/times/{id}` | Excluir time |
 
-### Gestão de Listas
+### Campeonatos
 
-| Método | Endpoint | Descrição |
+| Metodo | Endpoint | Descricao |
 |--------|----------|-----------|
-| POST | `/peladas/{id}/jogadores/` | Adicionar jogador |
-| DELETE | `/peladas/{id}/jogadores/{jogador_id}/` | Remover jogador |
-| PUT | `/peladas/{id}/jogadores/reordenar/` | Reordenar lista |
-| PUT | `/peladas/{id}/jogadores/confirmar-presenca/` | Confirmar presença |
+| GET | `/campeonatos` | Listar campeonatos |
+| POST | `/campeonatos` | Criar campeonato |
+| GET | `/campeonatos/{id}` | Detalhes do campeonato |
+| POST | `/campeonatos/{id}/gerar_tabela` | Gerar tabela de jogos |
 
 ---
 
-## 🔒 Segurança
+## Seguranca
 
-### Autenticação JWT
+### Autenticacao JWT
 - Todas as rotas protegidas requerem token JWT
-- Token é enviado no header `Authorization: Bearer <token>`
-- Tokens têm expiração configurável
+- Token e enviado no header `Authorization: Bearer <token>`
+- Tokens tem expiracao configuravel
 
 ### Senhas
 - Hash seguro com bcryptjs
-- Validação de força de senha no frontend
+- Validacao de forca de senha no frontend
 
 ### CORS
-- Configurado para aceitar requisições do frontend
-- Restrito em produção para domínios específicos
+- Configurado para aceitar requisicoes do frontend
+- Restrito em producao para dominios especificos
 
 ### MongoDB
-- Conexão segura via MongoDB Atlas
-- Validação de dados no servidor
-- Fallback para armazenamento em memória em caso de falha
+- Conexao segura via MongoDB Atlas
+- Validacao de dados no servidor
+- Fallback para armazenamento em memoria em caso de falha
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
-### Erro de Conexão MongoDB
+### Erro de Conexao MongoDB
 
-```bash
-# Verifique se a URL do MongoDB está correta no .env
-# Verifique se o IP está liberado no MongoDB Atlas
-# Teste a conexão diretamente
-```
+- Verifique se a URL do MongoDB esta correta no .env
+- Verifique se o IP esta liberado no MongoDB Atlas
+- Teste a conexao diretamente
 
 ### Erro de CORS
 
-```bash
-# Verifique se o CORS está configurado corretamente no server.ts
-# Em desenvolvimento, deve aceitar localhost:3000
-```
+- Verifique se o CORS esta configurado corretamente no server.ts
+- Em desenvolvimento, deve aceitar localhost:3000
 
 ### Erro de Build no Vercel
 
-```bash
-# Verifique se todas as dependências estão no package.json
-# Verifique se as variáveis de ambiente estão configuradas no Vercel
-# Verifique os logs de build no painel do Vercel
-```
+- Verifique se todas as dependencias estao no package.json
+- Verifique se as variaveis de ambiente estao configuradas no Vercel
+- Verifique os logs de build no painel do Vercel
 
-### Frontend não conecta com API
+### Frontend nao conecta com API
 
-```bash
-# Verifique se a URL da API está correta em src/services/api.ts
-# Em desenvolvimento: http://localhost:3000/api/
-# Em produção: https://seu-dominio.vercel.app/api/
-```
+- Verifique se a URL da API esta correta em src/services/api.ts
+- Em desenvolvimento: http://localhost:3000/api/
+- Em producao: https://seu-dominio.vercel.app/api/
 
-### Problemas com Socket.IO
+### Presenca/Pagamento nao marca
 
-```bash
-# Verifique se o Socket.IO está configurado corretamente
-# Teste a conexão WebSocket no console do navegador
-```
+- Certifique-se de que o endpoint PATCH `/pelada-jogadores/{id}` esta acessivel
+- Verifique o console do navegador para erros de rede
+- O toggle de presenca e pagamento usa o endpoint PATCH sem barra final
 
 ---
 
-## 📦 Build para Produção
+## Build para Producao
 
 ### Build Local
 
@@ -382,7 +413,7 @@ npm run build
 npm run preview
 ```
 
-### Verificação de Tipos
+### Verificacao de Tipos
 
 ```bash
 # Verificar tipos TypeScript
@@ -391,92 +422,62 @@ npm run lint
 
 ---
 
-## 🔄 Próximas Funcionalidades
+## Proximas Funcionalidades
 
-- [ ] Sistema de notificações push
-- [ ] Geração automática de times balanceados
-- [ ] Integração com pagamento (PIX/Cartão)
+- [ ] Sistema de notificacoes push
+- [ ] Geracao automatica de times balanceados
+- [ ] Integracao com pagamento (PIX/Cartao)
 - [ ] Chat em tempo real
-- [ ] Estatísticas avançadas por jogador
+- [ ] Estatisticas avancadas por jogador
 - [ ] Modo escuro
 - [ ] PWA (Progressive Web App)
-- [ ] Exportação de relatórios
+- [ ] Exportacao de relatorios
 - [ ] Sistema de ranking
-- [ ] Integração com calendário
-- [ ] Histórico de partidas
-- [ ] Sistema de pontuação
+- [ ] Integracao com calendario
+- [ ] Historico de partidas
+- [ ] Sistema de pontuacao
 
 ---
 
-## 📄 Licença
+## Licenca
 
-Este projeto é de uso educacional e pode ser modificado e distribuído livremente.
+Este projeto e de uso educacional e pode ser modificado e distribuido livremente.
 
 ---
 
-## 📞 Suporte
+## Suporte
 
-Para dúvidas ou problemas:
+Para duvidas ou problemas:
 
-1. Verifique a seção de Troubleshooting acima
+1. Verifique a secao de Troubleshooting acima
 2. Revise os logs do Vercel
 3. Inspecione o console do navegador (F12)
-4. Verifique a conexão com MongoDB Atlas
+4. Verifique a conexao com MongoDB Atlas
 5. Entre em contato com a equipe de desenvolvimento
 
 ---
 
-## 🎓 Aprendizados do Projeto
+## Changelog
 
-Este projeto demonstra:
-
-- ✅ Arquitetura moderna React + Node.js
-- ✅ API RESTful com Express
-- ✅ Banco de dados NoSQL com MongoDB
-- ✅ Autenticação JWT segura
-- ✅ Deploy serverless no Vercel
-- ✅ Design responsivo com Tailwind CSS
-- ✅ TypeScript para type safety
-- ✅ Comunicação real-time com Socket.IO
-- ✅ Boas práticas de organização de código
-- ✅ Integração frontend-backend
-- ✅ Configuração de produção
-- ✅ Tratamento de erros robusto
-
----
-
-## 🔗 Links Úteis
-
-- [Documentação Node.js](https://nodejs.org/docs/)
-- [Documentação React](https://react.dev/)
-- [Documentação MongoDB](https://docs.mongodb.com/)
-- [Documentação Vercel](https://vercel.com/docs)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Express.js](https://expressjs.com/)
-- [Socket.IO](https://socket.io/docs/)
-
----
-
-**Desenvolvido com ❤️ pela Equipe FutGestão**
-
-*Versão 3.0.0 - Janeiro 2026*
-
----
-
-## 🚀 Changelog
+### v3.1.0 (Abril 2026)
+- Correcao do toggle de presenca e pagamento na lista de inscritos
+- Adicao do endpoint de confirmacao de pagamento no backend
+- Correcao de rotas com barra final inconsistente
+- Atualizacao do README com documentacao completa de endpoints
+- Configuracao das variaveis de ambiente para producao
 
 ### v3.0.0 (Janeiro 2026)
-- ✅ Migração para Node.js + Express + MongoDB
-- ✅ Implementação de Socket.IO para real-time
-- ✅ Melhoria na arquitetura do backend
-- ✅ Otimização para deploy no Vercel
-- ✅ Correção de todos os bugs conhecidos
-- ✅ Atualização das dependências
+- Migracao para Node.js + Express + MongoDB
+- Implementacao de Socket.IO para real-time
+- Melhoria na arquitetura do backend
+- Otimizacao para deploy no Vercel
+- Correcao de todos os bugs conhecidos
+- Atualizacao das dependencias
 
 ### v2.0.0 (Abril 2026)
-- ✅ Sistema completo Django + React
-- ✅ Autenticação JWT
-- ✅ Gestão de peladas e jogadores
+- Sistema completo Django + React
+- Autenticacao JWT
+- Gestao de peladas e jogadores
 
-### v1.0.0 (Março 2026)
-- ✅ Versão inicial do projeto
+### v1.0.0 (Marco 2026)
+- Versao inicial do projeto

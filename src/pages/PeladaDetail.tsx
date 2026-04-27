@@ -73,7 +73,7 @@ const PeladaDetail = () => {
 
   const handleRemovePlayer = async (peladaJogadorId: string) => {
     try {
-      await api.delete(`/pelada-jogadores/${peladaJogadorId}/`);
+      await api.delete(`/pelada-jogadores/${peladaJogadorId}`);
       toast.success("Jogador removido.");
       fetchData();
     } catch (error) {
@@ -83,8 +83,8 @@ const PeladaDetail = () => {
 
   const handleTogglePresence = async (peladaJogadorId: string, current: boolean) => {
     try {
-      await api.patch(`/pelada-jogadores/${peladaJogadorId}/`, { 
-        presenca_confirmada: !current 
+      await api.patch(`/pelada-jogadores/${peladaJogadorId}`, {
+        presenca_confirmada: !current
       });
       fetchData();
     } catch (error) {
@@ -94,8 +94,8 @@ const PeladaDetail = () => {
 
   const handleTogglePayment = async (peladaJogadorId: string, current: boolean) => {
     try {
-      await api.patch(`/pelada-jogadores/${peladaJogadorId}/`, { 
-        pagamento_confirmado: !current 
+      await api.patch(`/pelada-jogadores/${peladaJogadorId}`, {
+        pagamento_confirmado: !current
       });
       fetchData();
     } catch (error) {

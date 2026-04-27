@@ -233,6 +233,13 @@ async function startServer() {
     res.json({ message: "Presença atualizada" });
   });
 
+  app.put("/api/peladas/:id/jogadores/confirmar-pagamento", authenticate, (req: any, res) => {
+    const { jogador_id, confirmar } = req.body;
+    const pj = peladaJogadores.find(p => p.peladaId === req.params.id && p.jogadorId === jogador_id);
+    if (pj) pj.pagamento_confirmado = confirmar;
+    res.json({ message: "Pagamento atualizado" });
+  });
+
   // PATCH /api/pelada-jogadores/:id - toggle presence or payment
   app.patch("/api/pelada-jogadores/:id", authenticate, (req: any, res) => {
     const index = peladaJogadores.findIndex(pj => pj.id === req.params.id);
